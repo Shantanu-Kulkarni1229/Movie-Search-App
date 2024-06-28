@@ -1,75 +1,70 @@
-# Movie Explorer 🎬✨
+# Getting Started with Create React App
 
-Movie Explorer is a responsive and visually appealing web application that allows users to search for movies, view detailed information, and save their favorites. Built using HTML, CSS, JavaScript, and React, it leverages the OMDB API to fetch real-time movie data.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Key Features
+## Available Scripts
 
-- **Search Functionality:** Instantly search for movies by title and get relevant results.
-- **Detailed Movie Information:** View comprehensive details including the plot, genre, director, and year of release.
-- **Favorites Section:** Save your favorite movies and access them easily. Movies can be added to and removed from the favorites list seamlessly.
-- **Responsive Design:** Enjoy a consistent and optimized experience across all devices with a sleek dark-themed design.
-- **Smooth Animations:** Experience fluid transitions and animations that enhance the user experience.
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
 
-- **React:** For building the user interface and managing state.
-- **React Router:** For seamless navigation between pages.
-- **Axios:** For making API requests to fetch movie data.
-- **HTML & CSS:** For structuring the content and styling the application.
-- **JavaScript:** For adding interactivity and dynamic functionality.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Getting Started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Prerequisites
+### `npm test`
 
-Make sure you have the following installed on your local machine:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Node.js
-- npm (Node Package Manager)
+### `npm run build`
 
-### Installation
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/movie-explorer.git
-    cd movie-explorer
-    ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-3. Obtain an API key from [OMDB API](http://www.omdbapi.com/) and add it to your environment variables.
+### `npm run eject`
 
-4. Start the development server:
-    ```bash
-    npm start
-    ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-5. Open your browser and navigate to `http://localhost:3000`.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Usage
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Use the search bar to find movies by title.
-2. Click on a movie card to view detailed information.
-3. Add movies to your favorites by clicking the "Add to Favorites" button.
-4. Access your saved movies in the Favorites section.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Contributing
+## Learn More
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## License
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Code Splitting
 
-## Acknowledgements
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- [OMDB API](http://www.omdbapi.com/) for providing the movie data.
+### Analyzing the Bundle Size
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Feel free to check out the live demo and explore the world of movies with Movie Explorer! 🎥🍿
+### Making a Progressive Web App
 
-#WebDevelopment #ReactJS #FrontendDevelopment #MovieExplorer #JavaScript #HTML #CSS #APIIntegration #ResponsiveDesign #UserExperience #DarkTheme
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

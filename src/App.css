@@ -1,0 +1,97 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 2.5em;
+  font-family: "Lobster", cursive;
+  color: #ff6f61;
+  margin: 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.featured-movies,
+.favorites {
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movie-card {
+  background-color: #444;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.movie-card img {
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.movie-card p {
+  margin: 5px 0;
+}
+
+.movie-card button {
+  background-color: #ff6f61;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.movie-card button:hover {
+  background-color: #e65c50;
+}
+
+.movie-card button:disabled {
+  background-color: #777;
+  cursor: default;
+}
+
+.movie-detail {
+  padding: 20px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
